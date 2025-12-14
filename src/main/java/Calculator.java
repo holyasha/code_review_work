@@ -16,12 +16,10 @@ public class Calculator {
     }
 
     public int solver(){
-        //x^2 + 3 * x - 11, для x = 4, должно получится 16 + 12 - 11 = 17
-        int x = 4;
-        int first = times(x,x);
-        int second = times(3,x);
-        int summ = add(first, second);
-        int result = dif(summ, 11);
-        return result;
+        int x = diff(10, 5);
+        int y = add(20, 5);
+        int z = times(x, y);
+        int solve = add(x, y);
+        return solve;
     }
 }
