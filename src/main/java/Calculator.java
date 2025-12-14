@@ -14,6 +14,7 @@ public class Calculator {
     public int times(int a, int b){
         return a * b;
     }
+
     public int solver(){
         int x = diff(10, 5);
         int y = add(20, 5);
