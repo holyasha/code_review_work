@@ -15,10 +15,10 @@ public class Calculator {
         return a * b;
     }
     public int solver(){
-        int x = diff(10, 5);
+        int x = dif(10, 5);
         int y = add(20, 5);
         int z = times(x, y);
-        int solve = add(x, y);
+        int solve = add(x, z);
         return solve;
     }
 }
