@@ -33,9 +33,11 @@ jobs:
         uses: gradle/gradle-build-action@v2
 
       - name: Build with Gradle
+        chmod +x ./gradlew
         run: ./gradlew build
 
       - name: Run tests
+        chmod +x ./gradlew
         run: ./gradlew test
 
       - name: Upload build artifacts
